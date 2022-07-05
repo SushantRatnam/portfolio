@@ -15,8 +15,6 @@ module.exports = {
   theme: {
     colors: {
       ...removeDeprecated(colors),
-      // 'prim-light': '#00A6ED',
-      // 'prim-dark': '#0077B2',
       'prim-light': '#60463b',
       'prim-dark': '#856a5d',
     },
