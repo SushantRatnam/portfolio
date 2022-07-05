@@ -30,8 +30,8 @@ export function Icon({ name, path, href, newTab }) {
       >
         <defs>
           <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" style={{ stopColor: '#00A6ED', strokeOpacity: 1 }} />
-            <stop offset="100%" style={{ stopColor: '#0077B2', strokeOpacity: 1 }} />
+            <stop offset="0%" style={{ stopColor: '#60463b', strokeOpacity: 1 }} />
+            <stop offset="100%" style={{ stopColor: '#856a5d', strokeOpacity: 1 }} />
           </linearGradient>
         </defs>
         <path fill="url(#grad)" d={path} />
