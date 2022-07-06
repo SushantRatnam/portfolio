@@ -49,11 +49,11 @@ function SkillBadges() {
             'NodeJs',
             'ExpressJs',
             'CSS',
-            'HTML',
             'Sass',
+            'HTML',
           ]}
         />
-        <SkillGroup title="Tools" abbreviation="Tools" skills={['Git', 'FireBase']} />
+        <SkillGroup title="Tools" abbreviation="Tools" skills={['Git', 'FireBase', 'Lerna', 'Webpack']} />
       </div>
       <div className="hidden ml-2 sm:flex lg:hidden xl:flex">
         <div className="w-16"></div>
@@ -65,15 +65,14 @@ function SkillBadges() {
 function SkillGroup({ title, abbreviation, skills }) {
   return (
     <div className="flex p-1 px-2 mb-2 leading-10 border border-gray-300 rounded-xl ">
-      <div className="items-center hidden ml-1 font-bold align-middle w-28 text-md text-gradient sm:inline ">
+      <div className="items-center hidden w-24 ml-1 font-bold align-middle text-md text-gradient sm:inline ">
         {title}
       </div>
-      <div className="items-center inline w-6 mr-1 font-bold text-md text-gradient sm:hidden">
-        {abbreviation}:
+      <div className='flex flex-wrap flex-1'>
+        {skills.map((skill) => (
+          <Badge name={skill} key={skill} />
+        ))}
       </div>
-      {skills.map((skill) => (
-        <Badge name={skill} key={skill} />
-      ))}
     </div>
   );
 }

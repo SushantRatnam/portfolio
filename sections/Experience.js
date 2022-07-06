@@ -31,9 +31,9 @@ export default function Experience() {
             badgeNames: ["Vue", "Typescript", "NodeJs", "ExpressJs", "Jest"],
           }}
         >
-          My role includes development of front-office of the employee benefits
+          My role includes development of front-office for the employee benefits
           SaaS platform. We use VueJs with Buefy to create UI interfaces which
-          is reused using our internal component library system. Lerna is used
+          are reusable using our internal component library system. Lerna is used
           to manage the monorepo and its dependencies
         </JobCard>
         <JobCard

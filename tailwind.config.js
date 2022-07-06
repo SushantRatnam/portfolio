@@ -2,7 +2,7 @@
 const colors = require('tailwindcss/colors');
 
 function removeDeprecated(tailwindColors) {
-  const { lightBlue, warmGray, trueGray, coolGray, blueGray, ...rest } = tailwindColors;
+  const { sky, stone, neutral, gray, slate, ...rest } = tailwindColors;
   return rest;
 }
 

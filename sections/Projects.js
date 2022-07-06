@@ -25,8 +25,6 @@ function ProjectCard({ project }) {
           alt="Project images"
           width={700}
           height={400}
-          // srcSet={srcSet(img.src)}
-          // onerror={`this.onerror=null; this.src='/images/${img.src}'`}
         />
       </div>
       <div className="justify-start text-left min-w-1/2">

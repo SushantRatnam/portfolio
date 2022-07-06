@@ -1,13 +1,10 @@
 import { Section } from "../../components/Section";
 import { Icons } from "../../components/Icons";
 import Link from "next/link";
-// import Vanta from './Vanta';
-// import { isMobile } from '../../utils';
 
 export default function Intro() {
   return (
     <>
-      {/* {!isMobile() && <Vanta />} */}
       <Section>
         <div className="flex min-h-screen mt-8 text-center md:mt-0">
           <div className="z-10 max-w-screen-sm m-auto mt">
@@ -23,7 +20,7 @@ export default function Intro() {
                 creating awesome web applications and websites.
               </p>
               <p className="my-4 leading-8">
-                Bases out of India, Currently I&apos;m working as a
+                Based out of India, Currently I&apos;m working as a
                 SDEII(Frontend) at{" "}
                 <Link href="https://www.zeta.tech/in">
                   <a
