@@ -43,14 +43,14 @@ function SkillBadges() {
           abbreviation="FE"
           skills={[
             'Javscript',
-            'ReactJs',
-            'NextJs',
             'Vue',
             'NodeJs',
             'ExpressJs',
             'CSS',
             'Sass',
             'HTML',
+            'ReactJs',
+            'NextJs',
           ]}
         />
         <SkillGroup title="Tools" abbreviation="Tools" skills={['Git', 'FireBase', 'Lerna', 'Webpack']} />

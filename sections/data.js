@@ -12,7 +12,7 @@ export const projects = {
         wdith: '221',
         height: '134',
         description:
-          'Team8 is a work management software that aims to be a "one-stop shop" for everything in between 9 and 5. Your email inbox, calendar, chat, absence requests, attendance tracking, and a kanban board are all in one browser tab, under one account. Built with React and Express.js',
+          'Your solution for condensing lengthy Zoom meetings and YouTube videos into concise summaries and transcripts, complete with key keywords for easy categorization and reference',
       },
       {
         id: '1',

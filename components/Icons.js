@@ -57,7 +57,7 @@ export function Icons() {
       />
       <Icon name="Github" path={paths.github} href="https://github.com/SushantRatnam" newTab />
       <Icon name="Blog" path={paths.blog} href="https://blog.sushantratnam.com/" newTab />
-      <Icon name="Resume" path={paths.cv} href="" newTab />
+      <Icon name="Resume" path={paths.cv} href="https://drive.google.com/file/d/1ruRolKdk_F9JR4MbwWV6fMfBbtgSYnOG/view?usp=sharing" newTab />
     </div>
   );
 }

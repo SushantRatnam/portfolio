@@ -1,6 +1,6 @@
-import { Section } from "../../components/Section";
-import { Icons } from "../../components/Icons";
-import Link from "next/link";
+import { Section } from '../../components/Section';
+import { Icons } from '../../components/Icons';
+import Link from 'next/link';
 
 export default function Intro() {
   return (
@@ -10,34 +10,35 @@ export default function Intro() {
           <div className="z-10 max-w-screen-sm m-auto mt">
             <hgroup>
               <h1 className="mt-4 text-3xl font-bold">Sushant Ratnam</h1>
-              <h2 className="mt-2 text-xl font-bold text-gradient">
-                Software developer
-              </h2>
+              <h2 className="mt-2 text-xl font-bold text-gradient">Software developer</h2>
             </hgroup>
             <summary className="mx-6 mt-4 leading-8 ">
               <p className="p-4 text-lg opacity-70 font-semibold shadow-black shadow=[0_0_50]">
-                Hello, I am a full stack web developer and have worked on
-                creating awesome web applications and websites.
+                Greetings!
+                <br/>
+                I am a passionate full-stack web developer dedicated to
+                crafting remarkable web applications and websites.
               </p>
               <p className="my-4 leading-8">
-                Based out of India, Currently I&apos;m working as a
-                SDEII(Frontend) at{" "}
+                Currently stationed in India, I serve as a Senior Software Engineer at{' '}
                 <Link href="https://www.zeta.tech/in">
                   <a
                     className="font-semibold transition-all pointer-events-auto text-gradient hover:text-prim-dark"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Zeta Suite{" "}
+                    Zeta.{' '}
                   </a>
                 </Link>
-                and am responsible for creating best in class employee benefit
-                program and tools associated with it. What excites me about web
-                development is the ever changing and continuously evolving
-                landscape with awesome folks in the globally diversed comunity.
-                I love Javascript including the wierd and hard parts 😁 and I
-                use it in the browser as well as with nodeJs to create web apps
-                that solves complex problems.
+                My primary focus involves crafting and overseeing multi-tenant back-office solutions
+                tailored for banks and fintech enterprises, while also spearheading the development
+                of intuitive user interfaces crucial for daily operations. What drives my enthusiasm
+                for web development is the ever-changing and dynamic landscape, enriched by the
+                collaboration with talented individuals from diverse backgrounds worldwide. I find
+                immense joy in unraveling the intricacies of JavaScript, embracing its
+                eccentricities and complexities with a grin 😁. Whether it's within the browser or
+                through Node.js, I harness the power of JavaScript to engineer web applications that
+                tackle intricate challenges head-on.
               </p>
             </summary>
             <Icons />
